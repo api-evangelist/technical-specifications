@@ -1,13 +1,11 @@
 name: Technical Specifications
-description: Detailed technical requirements, standards, and parameters that define
-  the characteristics and performance criteria of a product, system, or service. Organizations
-  adopt it to address specific technical or business challenges in their environments.
+description: Detailed technical requirements, standards, and parameters that define the characteristics and performance criteria of a product, system, or service. Organizations adopt it to address specific technical or business challenges in their environments.
 url: https://en.wikipedia.org/wiki/Specification_(technical_standard)
 tags:
-- Documentation
-- Engineering
-- Standards
-- Requirements
+  - Documentation
+  - Engineering
+  - Requirements
+  - Standards
 created: '2025'
 modified: '2026-03-16'
 apis: []
