@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "spec": "https://raw.githubusercontent.com/api-evangelist/technical-specifications/main/json-ld/technical-specifications-context.jsonld#",
+    "schema": "https://schema.org/",
+
+    "Specification": "schema:TechArticle",
+    "specificationId": "schema:identifier",
+    "specificationName": "schema:name",
+    "specificationDescription": "schema:description",
+    "specificationVersion": "schema:version",
+    "specificationUrl": "schema:url",
+    "specificationStatus": "spec:status",
+    "specificationAuthority": "schema:publisher",
+
+    "OpenAPISpecification": "spec:OpenAPISpecification",
+    "AsyncAPISpecification": "spec:AsyncAPISpecification",
+    "JSONSchema": "spec:JSONSchema",
+    "GraphQLSpecification": "spec:GraphQLSpecification",
+    "gRPCSpecification": "spec:gRPCSpecification",
+    "RAMLSpecification": "spec:RAMLSpecification",
+
+    "SpecificationVersion": "spec:SpecificationVersion",
+    "versionNumber": "schema:version",
+    "releaseDate": "schema:datePublished",
+    "isCurrentVersion": "spec:isCurrentVersion",
+    "previousVersion": "schema:previousItem",
+
+    "ConformanceLevel": "spec:ConformanceLevel",
+    "levelName": "schema:name",
+    "levelDescription": "schema:description",
+    "levelRequirements": "spec:requirements",
+
+    "DataFormat": "spec:DataFormat",
+    "formatName": "schema:name",
+    "formatMimeType": "schema:encodingFormat",
+    "formatExtension": "spec:fileExtension",
+
+    "Protocol": "spec:Protocol",
+    "protocolName": "schema:name",
+    "protocolPort": "spec:port",
+    "protocolScheme": "spec:scheme",
+
+    "Implementation": "schema:SoftwareApplication",
+    "implementationName": "schema:name",
+    "implementationUrl": "schema:url",
+    "implementationLanguage": "schema:programmingLanguage",
+    "implementationLicense": "schema:license"
+  }
+}

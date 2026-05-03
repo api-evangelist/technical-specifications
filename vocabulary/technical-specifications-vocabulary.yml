@@ -1,0 +1,151 @@
+name: Technical Specifications Vocabulary
+description: >-
+  Domain vocabulary for technical specifications in the API and software engineering
+  domain, covering specification formats, conformance, data exchange, and standards
+  governance concepts.
+tags:
+  - Documentation
+  - Engineering
+  - Requirements
+  - Specifications
+  - Standards
+created: '2026-05-03'
+modified: '2026-05-03'
+terms:
+  - term: Specification
+    definition: >-
+      A formal, normative document that prescribes requirements, behavior, and
+      constraints for a technology system, API, or data format. Specifications
+      define what implementations must, should, and may do.
+    synonyms:
+      - Spec
+      - Standard
+      - Normative Document
+    relatedTerms:
+      - Implementation
+      - Conformance
+
+  - term: OpenAPI Specification
+    definition: >-
+      A vendor-neutral, language-agnostic interface description for HTTP APIs using
+      YAML or JSON. The de facto standard for documenting REST APIs, maintained by
+      the OpenAPI Initiative (OAI) under the Linux Foundation. Current version is 3.1.
+    synonyms:
+      - OAS
+      - Swagger
+      - OpenAPI
+    relatedTerms:
+      - JSON Schema
+      - AsyncAPI
+
+  - term: AsyncAPI Specification
+    definition: >-
+      An open-source specification for event-driven and message-based APIs supporting
+      protocols such as AMQP, MQTT, Kafka, WebSocket, and HTTP. Follows the same
+      design philosophy as OpenAPI but for asynchronous messaging.
+    synonyms:
+      - AsyncAPI
+    relatedTerms:
+      - OpenAPI Specification
+      - Event-Driven Architecture
+
+  - term: JSON Schema
+    definition: >-
+      A vocabulary and meta-schema for annotating and validating JSON documents.
+      Defines type systems, constraints, and data structure documentation.
+      Underpins both OpenAPI 3.x and AsyncAPI component schemas. Current stable
+      version is Draft 2020-12.
+    synonyms:
+      - JSON Validation Schema
+      - Draft 2020-12
+    relatedTerms:
+      - OpenAPI Specification
+      - Data Validation
+
+  - term: GraphQL SDL
+    definition: >-
+      The Schema Definition Language used to define GraphQL type systems. SDL
+      describes types, fields, queries, mutations, and subscriptions in a
+      strongly-typed schema format.
+    synonyms:
+      - GraphQL Schema
+      - Schema Definition Language
+    relatedTerms:
+      - GraphQL
+
+  - term: Protocol Buffer
+    definition: >-
+      Google's language-neutral, platform-neutral binary serialization format used
+      as the interface description language for gRPC. Proto3 is the current version.
+    synonyms:
+      - Protobuf
+      - Proto3
+    relatedTerms:
+      - gRPC
+
+  - term: RAML
+    definition: >-
+      RESTful API Modeling Language, a YAML-based specification format for describing
+      RESTful APIs. RAML 1.0 supports reusable data types, traits, and resource types.
+    synonyms:
+      - RESTful API Modeling Language
+    relatedTerms:
+      - OpenAPI Specification
+
+  - term: Conformance
+    definition: >-
+      The degree to which an implementation satisfies the requirements stated in a
+      specification. Conformance levels (e.g., MUST, SHOULD, MAY) follow RFC 2119
+      terminology.
+    synonyms:
+      - Compliance
+      - Standards Compliance
+    relatedTerms:
+      - Implementation
+      - RFC 2119
+
+  - term: MUST / SHOULD / MAY
+    definition: >-
+      RFC 2119 normative keywords used in specifications to indicate requirement
+      levels. MUST = absolute requirement, SHOULD = recommended but not absolute,
+      MAY = truly optional.
+    synonyms:
+      - Normative Keywords
+      - Requirement Levels
+    relatedTerms:
+      - Conformance
+
+  - term: Data Format
+    definition: >-
+      A structured encoding convention for representing data in a file or transmission.
+      Common API data formats include JSON, XML, CSV, YAML, Protocol Buffers, and
+      MessagePack.
+    synonyms:
+      - Serialization Format
+      - Encoding Format
+    relatedTerms:
+      - JSON Schema
+
+  - term: Interface Description Language
+    definition: >-
+      A specification language used to describe the interface of a software component
+      in a language-neutral way, enabling cross-language code generation. Examples
+      include OpenAPI (REST), Protocol Buffers (gRPC), and WSDL (SOAP).
+    synonyms:
+      - IDL
+      - API Description Language
+    relatedTerms:
+      - OpenAPI Specification
+      - Protocol Buffer
+
+  - term: Schema
+    definition: >-
+      A formal description of the structure, constraints, and semantics of data.
+      In API contexts, schemas define request and response body formats, typically
+      using JSON Schema or inline type definitions.
+    synonyms:
+      - Data Schema
+      - Type Definition
+    relatedTerms:
+      - JSON Schema
+      - OpenAPI Specification
