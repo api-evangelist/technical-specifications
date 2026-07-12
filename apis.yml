@@ -151,6 +151,10 @@ apis:
   - type: GitHub
     url: https://github.com/raml-org/raml-spec
 common:
+- type: VulnerabilityDisclosure
+  url: security/technical-specifications-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/technical-specifications-domain-security.yml
 - type: Website
   url: https://en.wikipedia.org/wiki/Specification_(technical_standard)
 - type: About
