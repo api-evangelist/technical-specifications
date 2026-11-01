@@ -1,4 +1,4 @@
-# Technical Specifications
+# technical-specifications
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,76 +64,22 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Technical specifications are detailed technical requirements, standards, and parameters
-that define the characteristics and performance criteria of a product, system, or service.
-In the API and software domain, technical specifications include formal API description
-formats (OpenAPI, AsyncAPI, JSON Schema), data exchange formats (JSON, XML, CSV, Protobuf),
-communication protocols (HTTP, gRPC, WebSocket, GraphQL), and encoding standards.
-Organizations adopt technical specifications to address interoperability, consistency,
-and governance challenges in their technology environments.
+## technical-specifications on APIs.io
 
-**Reference:** https://en.wikipedia.org/wiki/Specification_(technical_standard)
+Everything profiled for technical-specifications is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/technical-specifications/](https://apis.io/providers/technical-specifications/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+## API Evangelist rating
 
-Documentation, Engineering, Requirements, Specifications, Standards
+Not yet rated. See [apis.io/providers/technical-specifications/](https://apis.io/providers/technical-specifications/).
 
-## Timestamps
+## How this profile is made
 
-- **Created:** 2025-01-01
-- **Modified:** 2026-05-03
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-## APIs / Specifications
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for technical-specifications: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-### OpenAPI Specification
+## Open an issue
 
-The de facto standard for describing REST APIs. Current version: OAS 3.1.  
-**Website:** https://www.openapis.org/  
-**GitHub:** https://github.com/OAI/OpenAPI-Specification
-
-### AsyncAPI Specification
-
-Event-driven and message-based API specification covering AMQP, MQTT, Kafka, WebSocket.  
-**Website:** https://www.asyncapi.com/  
-**GitHub:** https://github.com/asyncapi/spec
-
-### JSON Schema
-
-Vocabulary for annotating and validating JSON documents. Draft 2020-12.  
-**Website:** https://json-schema.org/  
-**GitHub:** https://github.com/json-schema-org/json-schema-spec
-
-### GraphQL Specification
-
-Query language for APIs and runtime for fulfilling queries. Maintained by GraphQL Foundation.  
-**Website:** https://graphql.org/  
-**GitHub:** https://github.com/graphql/graphql-spec
-
-### gRPC
-
-High-performance RPC framework using Protocol Buffers. CNCF project.  
-**Website:** https://grpc.io/  
-**GitHub:** https://github.com/grpc/grpc
-
-### RAML
-
-RESTful API Modeling Language. YAML-based API description format.  
-**Website:** https://raml.org/  
-**GitHub:** https://github.com/raml-org/raml-spec
-
-## Artifacts
-
-| Type | File |
-|---|---|
-| JSON-LD Context | [technical-specifications-context.jsonld](json-ld/technical-specifications-context.jsonld) |
-| Vocabulary | [technical-specifications-vocabulary.yml](vocabulary/technical-specifications-vocabulary.yml) |
-
-## Vocabulary
-
-A domain vocabulary covering specification concepts including Conformance, RFC 2119 keywords,
-Interface Description Language, Schema, and Data Format terms is available at
-[vocabulary/technical-specifications-vocabulary.yml](vocabulary/technical-specifications-vocabulary.yml).
-
-## Maintainers
-
-- Kin Lane (kin@apievangelist.com)
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/technical-specifications/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
